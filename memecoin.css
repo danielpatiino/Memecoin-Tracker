@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #2e2e2e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.topborder {
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: black;
+    padding: 20px; /* Adds padding to the top and bottom */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds shadow to the banner */ 
+    position: sticky; /* Makes the banner sticky */
+    top: 0; /* Sets the banner to the top */
+    
+}
+
+h1 {
+    color: white; 
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.coin-card {
+    display: flex;  /* Aligns items horizontally */
+    flex-direction: center; /* Aligns items vertically */
+    gap: 20px;
+    padding: 10px 50px; 
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    margin: 0px; /* Adds margin around each card */
+    width: 100%; /* Sets a fixed width */
+    height: 100%; /* Sets a fixed height */
+}
+
+.coin-card img {
+    width: 80px;
+    height: auto;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: white; /* Ensure the links are visible */
+}
+
+footer a:hover {
+    color: blue; /* Change the color of the links when hovered */
+}
